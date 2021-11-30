@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "test": "SET PORT=8080 && node run-cypress-tests.js -r tap"
+    "test": "PORT=8080 && node run-cypress-tests.js -r tap"
   },
   "keywords": [],
   "author": "",
